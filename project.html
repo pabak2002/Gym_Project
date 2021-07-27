@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pabak's Gym</title>
+</head>
+<body>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    body{
+        background: url('bg1.jpeg');
+        color:whitesmoke;
+    }
+    .heading{
+           text-align: center;
+           color:teal;
+    }
+    .navbar{
+        color: floralwhite;
+        font-size: 25px;
+        top: 0px;
+        }
+    .ap,.gp{
+        color:burlywood;
+        font-size: 20px;
+    }
+    .right2{
+        position: absolute;
+        top: 170px;
+        right: 60px;
+    }
+    .right {
+        position: absolute;
+        right: 20px;
+        top: 0px;
+        display: inline-block;
+        color: floralwhite;
+        font-size: 25px;
+        background-color:whitesmoke;
+    }
+    .right1 {
+        position: absolute;
+        right: 100px;
+        top: 70px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+    }
+    #abc{
+        color:deeppink;
+    }
+    .active1{
+        color:rgba(202, 26, 26, 0.76);
+    }
+    #download{
+        font-size: 25px;
+        color: brown;
+    }
+    </style>
+    <div class="left">
+        
+    </div>
+    
+    <div class="right">
+        <ul class="navbar">
+            <link rel="stylesheet" href="project.css">
+        <a class="active1" href="#GetStarted" ><strong>GetStarted</strong></a>
+        <a class="active1" href="#FitnessInstitute-GGFI"><strong>FitnessInstitute-GGFI</strong></a>
+        <a class="active1" href="#Gallery"><strong>Gallery</strong></a>
+        <a class="active1" href="#Programs"><strong>Programs</strong></a>
+        <a class="active1" href="#Franchise" ><strong>Franchise</strong></a>
+        <a class="active1" href="#Blogs" ><strong>Blogs</strong></a>
+        <a class="active1" href="#Contact" ><strong>Contact</strong></a>
+        <a class="active1" href="#Free Trial" ><strong>Free Trial</strong></a>
+        <a class="active1" href="#Join Now" ><strong>Join Now</strong></a>
+        </ul>
+        
+      </div><br><br>
+      
+    <div class="right1">
+      <link rel="stylesheet" href="project.css"> 
+        
+     <p id="download" ><strong>Download Now</strong></p>
+     <a href="https://play.google.com/">
+        <img src="gp.png" alt="" width="50" height="50">
+     </a>
+     <a href="https://www.apple.com">
+        <img src="ap.jpg" alt="" width="50" height="50">
+    </a>
+    </div>
+      <br><h1 class="heading">PABAK'S FITNESS CENTRE</h1>
+      <div class="right2">
+    <br><h3 id="abc"><strong> CONNECT WITH US </strong></h3>
+    <form action="backend.php">
+        <link rel="stylesheet" href="project.css"><br>
+        NAME:<input type="text" name="myName"><br><br>
+        EMAILID:<input type="email" name="myEmail"><br><br>
+        GENDER:Male<input type="radio" name="My Gender"> Female<input type="radio" name="My Gender">
+        Other<input type="radio" name="My Gender" ><br><br>
+        ADDRESS:<input type="text" name="ADDRESS"><br><br>
+        Phone No.:<input type="number" name="Phone No"><br><br>
+        Feasible time for Contact <br><br>MORNING 9AM to 1PM <input type="radio" name="Contact time"><br><br>AFTERNOON 3PM to 6PM <input type="radio" name="Contact time"><br><br>
+        EVENING 7PM to 10PM <input type="radio" name="Contact time"><br><br>
+        Joining Date<input type="date" name="" id=""><br><br>
+        Time Of Form Submission <input type="time" name="" id=""><br><br>
+        <label for="Gym">GYM Slot</label>
+        <select name="My GYM" id="Gym">
+        <option value="--Select--">--Select--</option>
+        <option value="Morning">Morning</option>
+        <option value="Evening">Evening</option>
+        </select>
+        <br><br><input type="submit" value="Submit now">
+         <input type="reset" value="Reset now"><br>
+    </div>
+</body>
+</html>
