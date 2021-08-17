@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pabak's Gym</title>
+</head>
+<body>
+    
+    <link rel="stylesheet" href="style.css">
+    <style>
+    body{
+        /* background: url('bg.png'); */
+        color:whitesmoke;
+        /* width: max-content; */
+        /* height: max-content; */
+    }
+    .heading{
+           text-align: center;
+           color:yellow;
+           text-decoration: white;
+           text-shadow: white;
+    }
+    .navbar{
+        color: floralwhite;
+        font-size: 25px;
+        top: 0px;
+        }
+    .ap,.gp{
+        color:burlywood;
+        font-size: 20px;
+    }
+    .right2{
+        position: absolute;
+        top: 170px;
+        right: 60px;
+        text-align: center;
+    }
+    .right {
+        text-align: center;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        width: 1350px;
+        word-spacing: 20px;
+        display: inline-block;
+        color: white;
+        font-size: 20px;
+        /* background-color:black; */
+        /* opacity: 10%; */
+    }
+    .right1 {
+        position: absolute;
+        right: 100px;
+        top: 70px;
+        display: inline-block;
+        text-align: center;
+        /* border: 2px solid yellow; */
+    }
+    #abc{
+        color:deeppink;
+    }
+    .active1{
+        color:rgba(202, 26, 26, 0.76);
+    }
+    #download{
+        font-size: 25px;
+        color: brown;
+    }
+    .bottom1{
+        text-align: justify;
+        position: absolute;
+        color:crimson;
+        top: 900px;
+        right: 600px;
+        /* left: 50px; */
+    }
+    .bottom2{
+        position: absolute;
+        top: 1000px;
+        left: 60px;
+    }
+    .icon{
+        top: 10px;
+        left: 200px;
+        background-color:red;
+    }
+    </style>
+    <footer>
+    <div class="bottom1">
+        <h2 ><strong>Our Sponsors</strong></h2>
+    </div>
+    <div class="bottom2">
+        <a href="https://shop4reebok.com/">
+        <img src="rk.png" alt="" width="300" height="100">
+        <a href="https://in.puma.com/">
+        <img src="puma.png" alt="" width="300" height="96">
+        <a href="https://www.nike.com/">
+        <img src="nike.jpeg" alt="" width="300" height="100">
+        <a href="https://shop.adidas.co.in/">
+        <img src="ad.png" alt="" width="300" height="100">
+    </div>
+    </footer>
+    <header>
+    <div class="right">
+        <!-- <ul class="navbar"> -->
+        <link rel="stylesheet" href="project.css">
+        <a class="active1" href="#GetStarted">GetStarted</strong></a>
+        <a class="active1" href="#FitnessInstitute-GGFI">FitnessInstitute-GGFI</strong></a>
+        <a class="active1" href="#Gallery">Gallery</strong></a>
+        <a class="active1" href="#Programs">Programs</strong></a>
+        <a class="active1" href="#Franchise" >Franchise</strong></a>
+        <a class="active1" href="#Blogs" >Blogs</strong></a>
+        <a class="active1" href="#Contact" >Contact</strong></a>
+        <a class="active1" href="#Free Trial" >FreeTrial</strong></a>
+        <a class="active1" href="#Join Now" >JoinNow</strong></a><br>
+        <h1 class="heading">PABAK'S FITNESS CENTRE</h1>
+        <!-- <img src="icon.jpg" alt="" height="120" width="120" > -->
+        </ul>
+        
+      </div><br><br>
+    </header>
+      <div class="icon">
+       <img src="icon.jpg" alt="" height="120" width="120" >  
+      </div>
+    <div class="right1">
+      <link rel="stylesheet" href="project.css"> 
+      <br><br> 
+     <p id="download" ><strong>Download Now</strong></p>
+     <a href="https://play.google.com/">
+        <img src="gp.png" alt="" width="50" height="50">
+     </a>
+     <a href="https://www.apple.com">
+        <img src="ap.jpg" alt="" width="50" height="50">
+    </a>
+    </div>
+      <br>
+      <div class="right2">
+    <br><br><br><h3 id="abc"><strong> CONNECT WITH US </strong></h3>
+    <form action="backend.php">
+        <link rel="stylesheet" href="project.css"><br>
+        NAME:<input type="text" name="myName"><br><br>
+        EMAILID:<input type="email" name="myEmail"><br><br>
+        GENDER:Male<input type="radio" name="My Gender"> Female<input type="radio" name="My Gender">
+        Other<input type="radio" name="My Gender" ><br><br>
+        ADDRESS:<input type="text" name="ADDRESS"><br><br>
+        Phone No.:<input type="number" name="Phone No"><br><br>
+        Feasible time for Contact <br><br>MORNING 9AM to 1PM <input type="radio" name="Contact time"><br><br>AFTERNOON 3PM to 6PM <input type="radio" name="Contact time"><br><br>
+        EVENING 7PM to 10PM <input type="radio" name="Contact time"><br><br>
+        Joining Date<input type="date" name="" id=""><br><br>
+        Time Of Form Submission <input type="time" name="" id=""><br><br>
+        <label for="Gym">GYM Slot</label>
+        <select name="My GYM" id="Gym">
+        <option value="--Select--">--Select--</option>
+        <option value="Morning">Morning</option>
+        <option value="Evening">Evening</option>
+        </select>
+        <br><br><input type="submit" value="Submit now">
+         <input type="reset" value="Reset now"><br>
+    </div>
+</body>
+</html>
